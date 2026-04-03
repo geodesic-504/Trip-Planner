@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="group7project.LoginTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2026-04-03T21:08:01.430Z" hostname="MDO" time="0.1">
+  <properties/>
+  <testcase name="TestPasswordWithSpecialAndSpace()" classname="group7project.LoginTest" time="0.077"/>
+  <system-out><![CDATA[Password is incorrect, try again
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
