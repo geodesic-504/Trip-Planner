@@ -37,18 +37,15 @@ public class LogoutTest
         assertFalse(Login.verified);
     }
 
-    // Test Case 3: Logout twice in a row
-    // Expected Result: login.verified stays false after being set to false from
-    // the first logout
+    // Test Case 3: login.verified is null
+    // Expected Result: Null Pointer Exception is thrown
     @Test
-    public void testLogoutTwiceInARow()
+    public void testLogoutWhenVerifiedIsNull()
     {
-        Login.verified = true;
+        Login.verified = null;
 
-        Logout firstLogout = new Logout();
-        assertFalse(Login.verified); // first logout succeeded
-
-        Logout secondLogout = new Logout();
-        assertFalse(Login.verified); // second logout: no user logged in, stays false
+        assertThrows(NullPointerException.class, () -> {
+            Logout logout = new Logout();
+        });
     }
 }

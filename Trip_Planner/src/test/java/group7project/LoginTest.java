@@ -53,23 +53,26 @@ public class LoginTest
         assertFalse(Login.verified);
     }
 
-    // Test Case 4: Exceptional username with space and uncommon special character, valid password
-    // Expected result: Account does not exist
+    // Test Case 4: Exceptionally long string for username
+    // Expected Result: Account does not exist
     @Test
     public void testUsernameWithSpecialAndSpace()
     {
-        Login login = new Login("abcd ©123", "edina1234");
+        String largeInput = "a".repeat(10000);
+        Login login = new Login(largeInput, "edina1234");
 
         String result = login.verifyInputs();
         assertEquals("Account does not exist", result);
         assertFalse(Login.verified);
     }
 
-    // Test Case 5: Valid Username, exceptional password with space and uncommon special character
+    // Test Case 5: Exceptionally long string for password
     // Expected Result: Password is incorrect, try again
     @Test
     public void TestPasswordWithSpecialAndSpace() {
-        Login login = new Login("edina_o", "fdsa ©123");
+        String largeInput = "a".repeat(10000);
+
+        Login login = new Login("edina_o", largeInput);
 
         String result = login.verifyInputs();
 
