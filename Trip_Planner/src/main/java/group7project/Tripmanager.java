@@ -3,11 +3,11 @@ package group7project;
 import java.util.ArrayList;
 import java.util.List;
 
-public class TripManager
+public class Tripmanager
 {
     private List<Trip> savedTrips;
 
-    public TripManager()
+    public Tripmanager()
     {
         this.savedTrips = new ArrayList<>();
     }
