@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="group7project.LocationServiceTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2026-04-24T17:48:20.922Z" hostname="OMS-LAPTOP" time="0.058">
+  <properties/>
+  <testcase name="testSetAccuracy()" classname="group7project.LocationServiceTest" time="0.027"/>
+  <testcase name="testGetAccuracy()" classname="group7project.LocationServiceTest" time="0.007"/>
+  <testcase name="testUpdateLocBeforeTracking()" classname="group7project.LocationServiceTest" time="0.006"/>
+  <testcase name="testGetCurrentLocationBeforeTracking()" classname="group7project.LocationServiceTest" time="0.001"/>
+  <testcase name="testUpdateLocAfterTracking()" classname="group7project.LocationServiceTest" time="0.002"/>
+  <system-out><![CDATA[Tracking is not on; unable to get update location.
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

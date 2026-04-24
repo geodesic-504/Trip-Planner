@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="group7project.RouteTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2026-04-24T17:48:21.014Z" hostname="OMS-LAPTOP" time="0.026">
+  <properties/>
+  <testcase name="testRouteDistanceAndDurationPositive()" classname="group7project.RouteTest" time="0.003"/>
+  <testcase name="testCalculateRouteNotNull()" classname="group7project.RouteTest" time="0.005"/>
+  <testcase name="testGetNextStepInstruction()" classname="group7project.RouteTest" time="0.003"/>
+  <testcase name="testMultipleNextStepsAllNonNull()" classname="group7project.RouteTest" time="0.001"/>
+  <testcase name="testRouteNotCompleteOnCreation()" classname="group7project.RouteTest" time="0.001"/>
+  <testcase name="testActiveRouteIsSet()" classname="group7project.RouteTest" time="0.003"/>
+  <testcase name="testStepDistanceRange()" classname="group7project.RouteTest" time="0.001"/>
+  <testcase name="testAlternativeRouteCount()" classname="group7project.RouteTest" time="0.004"/>
+  <system-out><![CDATA[Route Calculated from : UTD Campus to : DFW Airport
+Route Calculated from : UTD Campus to : DFW Airport
+Found 3 alternative routes
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

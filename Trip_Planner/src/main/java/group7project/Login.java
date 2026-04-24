@@ -6,7 +6,7 @@ public class Login
     private String username;
     private String password;
     public static Boolean verified = false;
-    private static int attempts;
+    private int attempts;
     private final static String[][] accounts = {{"edina_o", "edina1234"},
             {"dolphintale12", "iloveoceans!"},
             {"gocomets@utdallas.edu", "temoc1234"}};
@@ -15,14 +15,14 @@ public class Login
     {
         username = null;
         password = null;
+        attempts = 0;
     }
 
     public Login(String u, String p)
     {
         username = u;
         password = p;
-
-        System.out.println(verifyInputs());
+        attempts = 0;
     }
 
     public String verifyInputs()

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="group7project.LocationTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2026-04-24T17:48:20.982Z" hostname="OMS-LAPTOP" time="0.01">
+  <properties/>
+  <testcase name="testDistancePythagorean()" classname="group7project.LocationTest" time="0.0"/>
+  <testcase name="testDistanceSymmetry()" classname="group7project.LocationTest" time="0.0"/>
+  <testcase name="testDistanceSameLocation()" classname="group7project.LocationTest" time="0.001"/>
+  <testcase name="testLocationConstructorGetters()" classname="group7project.LocationTest" time="0.001"/>
+  <testcase name="testLocationSetters()" classname="group7project.LocationTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

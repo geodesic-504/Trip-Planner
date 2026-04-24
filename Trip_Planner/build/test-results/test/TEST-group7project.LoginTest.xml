@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="group7project.LoginTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2026-04-03T21:08:01.430Z" hostname="MDO" time="0.1">
+<testsuite name="group7project.LoginTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2026-04-24T17:48:20.993Z" hostname="OMS-LAPTOP" time="0.011">
   <properties/>
-  <testcase name="TestPasswordWithSpecialAndSpace()" classname="group7project.LoginTest" time="0.077"/>
-  <system-out><![CDATA[Password is incorrect, try again
-]]></system-out>
+  <testcase name="TestPasswordWithSpecialAndSpace()" classname="group7project.LoginTest" time="0.004"/>
+  <testcase name="testAccountDoesNotExist()" classname="group7project.LoginTest" time="0.0"/>
+  <testcase name="testValidLogin()" classname="group7project.LoginTest" time="0.001"/>
+  <testcase name="testUsernameWithSpecialAndSpace()" classname="group7project.LoginTest" time="0.001"/>
+  <testcase name="testWrongPassword()" classname="group7project.LoginTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
