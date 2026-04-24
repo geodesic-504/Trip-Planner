@@ -20,7 +20,7 @@ public class LogoutTest
     {
         Login.verified = true;
 
-        Logout logout = new Logout();
+        new Logout();
 
         assertFalse(Login.verified);
     }
@@ -32,7 +32,7 @@ public class LogoutTest
     {
         Login.verified = false;
 
-        Logout logout = new Logout();
+        new Logout();
 
         assertFalse(Login.verified);
     }
@@ -45,7 +45,7 @@ public class LogoutTest
         Login.verified = null;
 
         assertThrows(NullPointerException.class, () -> {
-            Logout logout = new Logout();
+            new Logout();
         });
     }
 }
