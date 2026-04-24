@@ -13,8 +13,8 @@ public class Route
     //Constructor
     public Route(Stop s1, Stop s2, float distance, float duration)
     {
-        this.start = start;
-        this.end = end;
+        this.start = s1;
+        this.end = s2;
 
 
         //Random Simulation
