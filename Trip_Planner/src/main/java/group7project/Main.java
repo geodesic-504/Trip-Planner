@@ -155,7 +155,7 @@ public class Main
 
         RouteManager routeManager = new RouteManager();
 
-        Route calculated = routeManager.calculateRoute(start, end, distance, duration);
+        routeManager.calculateRoute(start, end, distance, duration);
         // tests calculateRoute()
 
         System.out.println("Active route start: " + routeManager.getActiveRoute().getStart().getName());
@@ -175,6 +175,7 @@ public class Main
 
         System.out.println("Testing searchPOI:");
         List<Stop> poi = searchService.searchPOI();
+        System.out.println("Number of POI found: " + poi.size());
         // tests searchPOI() with user input
 
         System.out.println("Testing geocode:");
@@ -184,6 +185,7 @@ public class Main
 
         System.out.println("Testing searchNearby:");
         List<Stop> nearby = searchService.searchNearby();
+        System.out.println("Number of nearby stops found: " + nearby.size());
         // tests searchNearby() with user input
 
         System.out.println("\n--- All methods tested successfully ---");
