@@ -1,9 +1,10 @@
 package group7project;
 
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertFalse;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-
-import static org.junit.jupiter.api.Assertions.*;
 
 public class LoginTest
 {
@@ -18,8 +19,7 @@ public class LoginTest
     @Test
     public void testValidLogin()
     {
-        Login login = new Login();
-        login = new Login("edina_o", "edina1234");
+        Login login = new Login("edina_o", "edina1234");
 
         String result = login.verifyInputs();
 
