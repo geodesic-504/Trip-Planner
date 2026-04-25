@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="group7project.LoginTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2026-04-24T17:48:20.993Z" hostname="OMS-LAPTOP" time="0.011">
+<testsuite name="group7project.LoginTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2026-04-25T04:26:19.110Z" hostname="OMS-LAPTOP" time="0.008">
   <properties/>
-  <testcase name="TestPasswordWithSpecialAndSpace()" classname="group7project.LoginTest" time="0.004"/>
-  <testcase name="testAccountDoesNotExist()" classname="group7project.LoginTest" time="0.0"/>
+  <testcase name="TestPasswordWithSpecialAndSpace()" classname="group7project.LoginTest" time="0.003"/>
+  <testcase name="testAccountDoesNotExist()" classname="group7project.LoginTest" time="0.001"/>
   <testcase name="testValidLogin()" classname="group7project.LoginTest" time="0.001"/>
   <testcase name="testUsernameWithSpecialAndSpace()" classname="group7project.LoginTest" time="0.001"/>
   <testcase name="testWrongPassword()" classname="group7project.LoginTest" time="0.001"/>

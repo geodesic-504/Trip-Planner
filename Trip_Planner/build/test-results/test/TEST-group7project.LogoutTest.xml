@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="group7project.LogoutTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2026-04-24T17:48:21.004Z" hostname="OMS-LAPTOP" time="0.007">
+<testsuite name="group7project.LogoutTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2026-04-25T04:26:19.119Z" hostname="OMS-LAPTOP" time="0.005">
   <properties/>
-  <testcase name="testLogoutWhenVerifiedIsNull()" classname="group7project.LogoutTest" time="0.003"/>
+  <testcase name="testLogoutWhenVerifiedIsNull()" classname="group7project.LogoutTest" time="0.002"/>
   <testcase name="testLogoutWhenLoggedIn()" classname="group7project.LogoutTest" time="0.001"/>
   <testcase name="testLogoutWhenAlreadyLoggedOut()" classname="group7project.LogoutTest" time="0.001"/>
   <system-out><![CDATA[You have been logged out

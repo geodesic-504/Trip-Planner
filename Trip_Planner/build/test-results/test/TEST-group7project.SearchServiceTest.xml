@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="group7project.SearchServiceTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2026-04-24T17:48:21.040Z" hostname="OMS-LAPTOP" time="0.01">
+<testsuite name="group7project.SearchServiceTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2026-04-25T04:26:19.163Z" hostname="OMS-LAPTOP" time="0.005">
   <properties/>
-  <testcase name="testSearchPOIResultNames()" classname="group7project.SearchServiceTest" time="0.001"/>
-  <testcase name="testSearchNearbyInRange()" classname="group7project.SearchServiceTest" time="0.001"/>
-  <testcase name="testGeocodeReturnsPlaceholder()" classname="group7project.SearchServiceTest" time="0.001"/>
+  <testcase name="testSearchPOIResultNames()" classname="group7project.SearchServiceTest" time="0.0"/>
+  <testcase name="testSearchNearbyInRange()" classname="group7project.SearchServiceTest" time="0.0"/>
+  <testcase name="testGeocodeReturnsPlaceholder()" classname="group7project.SearchServiceTest" time="0.0"/>
   <testcase name="testSearchNearbyNoLocation()" classname="group7project.SearchServiceTest" time="0.001"/>
-  <testcase name="testSearchPOIReturnsTwoResults()" classname="group7project.SearchServiceTest" time="0.002"/>
-  <testcase name="testSearchNearbyOutOfRange()" classname="group7project.SearchServiceTest" time="0.001"/>
+  <testcase name="testSearchPOIReturnsTwoResults()" classname="group7project.SearchServiceTest" time="0.0"/>
+  <testcase name="testSearchNearbyOutOfRange()" classname="group7project.SearchServiceTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
