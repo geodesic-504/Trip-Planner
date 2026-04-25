@@ -9,9 +9,9 @@ public class SearchService {
     private LocationService locationService;
     private Scanner scanner;
 
-    public SearchService(LocationService locationService) {
+    public SearchService(LocationService locationService, Scanner scanner) {
         this.locationService = locationService;
-        this.scanner = new Scanner(System.in);
+        this.scanner = scanner;
     }
 
     // user inputs a query to search for a point of interest

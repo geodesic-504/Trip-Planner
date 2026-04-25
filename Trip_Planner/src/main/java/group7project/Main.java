@@ -171,7 +171,7 @@ public class Main
         // =====================
         System.out.println("\n--- Search Service ---");
 
-        SearchService searchService = new SearchService(locationService);
+        SearchService searchService = new SearchService(locationService, scanner);
 
         System.out.println("Testing searchPOI:");
         List<Stop> poi = searchService.searchPOI();

@@ -28,6 +28,10 @@ public class Trip
 
     public void addStop(Stop stop)
     {
+        if (stop == null)
+        {
+            throw new NullPointerException("Stop cannot be null");
+        }
         stops.add(stop);
     }
 
